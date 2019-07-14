@@ -20,6 +20,7 @@
          pic.src = "images/coin-heads.jpg";
 
       } else {
+         
          flipResults = "Tails\!";
          pic.src = "images/coin-tails.jpg";
       }
