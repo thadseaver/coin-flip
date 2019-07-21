@@ -1,12 +1,19 @@
 @charset "utf-8";
 /* CSS Document - Main Stylesheet - main.css */
 /* Thad Seaver
-Project name - Coin Flip Sep 2018 */
+Project name - Coin Flip Sep 2018
+
+background light gray #E1E0E0
+font dark blue #0B245B
+accent red #9A073C
+ */
 
 
 body {
+	background-color: #E1E0E0;
 	padding: 0;
 	margin: 0;
+	color: #0B245B;
 	font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,6 +23,7 @@ img {
 
 h1 {
 	font-size: 2em;
+	color: #0B245B;
 	margin: .5em 0;
 }
 
@@ -39,9 +47,12 @@ article {
 
 .push-center {
 	text-align: center;
+	color: #9A073C;
+	font-weight: bold;
 }
 
 .push-left {
+	color: #0B245B;
 	text-align: left;
 }
 
