@@ -7,6 +7,8 @@
    textAnswer = document.getElementById("text-answer");
 
    btn.addEventListener("click", function() {
+      textAnswer.className -= " push-center";
+      textAnswer.className += " push-left";
       textAnswer.innerHTML = flipDefault;
       pic.src = "images/coin-flipping.gif";
       setTimeout(calcRandom, 2500);
@@ -24,6 +26,8 @@
          flipResults = "Tails\!";
          pic.src = "images/coin-tails.jpg";
       }
+      textAnswer.className -= " push-left";
+      textAnswer.className += " push-center";
       textAnswer.innerHTML = flipResults;
    }
 })();
