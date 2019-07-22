@@ -2,7 +2,7 @@
    var btn = document.getElementById("flip-btn"),
    pic = document.getElementById("coin"),
    randomValue,
-   flipDefault = "Head or Tails?",
+   flipDefault = "Heads or Tails?",
    flipResults,
    textAnswer = document.getElementById("text-answer");
 
