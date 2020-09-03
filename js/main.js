@@ -18,13 +18,13 @@
    	randomValue = Math.round(Math.random());
 
       if (randomValue === 0) {
-         flipResults = "Heads\!";
          pic.src = "images/coin-heads.jpg";
+         flipResults = "Heads\!";
 
       } else {
          
-         flipResults = "Tails\!";
          pic.src = "images/coin-tails.jpg";
+         flipResults = "Tails\!";
       }
       textAnswer.className -= " push-left";
       textAnswer.className += " push-center";
